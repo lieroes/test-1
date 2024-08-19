@@ -1,0 +1,29 @@
+services:
+  database:
+    image: 'postgres:latest'
+    restart: always
+    ports:
+      - 5432:5432
+    env_file: .env 
+    networks:
+      - common-network
+    volumes:
+      - ./persistent/database-volume/:/var/lib/postgresql/data/
+
+  pgadmin:
+    image: dpage/pgadmin4
+    tty: true
+    ports:
+      - 8080:8080
+    env_file: .env 
+    depends_on:
+      - database
+    networks:
+      - common-network
+    volumes:
+      - ./persistent/pgadmin-volume:/var/lib/pgadmin
+      
+
+networks: 
+  common-network:
+    driver: bridge

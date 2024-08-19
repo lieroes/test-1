@@ -1,0 +1,505 @@
+[
+	{
+		"id": "bitcoin",
+		"name": "Bitcoin",
+		"ticker": "BTC",
+		"icon": "btc",
+		"addressRegex": "^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^(bc1[qzry9x8gf2tvdw0s3jn54khce6mua7l]([qpzry9x8gf2tvdw0s3jn54khce6mua7l]{38}|[qpzry9x8gf2tvdw0s3jn54khce6mua7l]{58}))$"
+	},
+	{
+		"id": "ethereum",
+		"name": "Ethereum",
+		"ticker": "ETH",
+		"icon": "eth",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "tether",
+		"name": "Tether",
+		"ticker": "USDT ERC-20",
+		"icon": "usdt",
+		"chain": "ERC-20",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "tether",
+		"name": "Tether",
+		"ticker": "USDT TRC-20",
+		"icon": "usdt",
+		"chain": "TRC-20",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "tether",
+		"name": "Tether",
+		"ticker": "USDT BEP-20",
+		"icon": "usdt",
+		"chain": "BEP-20",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "usd-coin",
+		"name": "USD Coin",
+		"ticker": "USDC ERC-20",
+		"icon": "usdc",
+		"chain": "ERC-20",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "usd-coin",
+		"name": "USD Coin",
+		"ticker": "USDC TRC-20",
+		"icon": "usdc",
+		"chain": "TRC-20",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "usd-coin",
+		"name": "USD Coin",
+		"ticker": "USDC BEP-20",
+		"icon": "usdc",
+		"chain": "BEP-20",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "polygon",
+		"name": "Ripple",
+		"ticker": "XRP",
+		"icon": "xrp",
+		"addressRegex": "^r[1-9a-km-zA-HJ-NP-Z]{25,35}$"
+	},
+	{
+		"id": "cardano",
+		"name": "Cardano",
+		"ticker": "ADA",
+		"icon": "ada",
+		"addressRegex": "(^(addr)1[ac-hj-np-z02-9]{6,}$)|(^(DdzFFz|Ae2td)[1-9A-HJ-NP-Za-km-z]+)"
+	},
+	{
+		"id": "dogecoin",
+		"name": "Dogecoin",
+		"ticker": "DOGE",
+		"icon": "doge",
+		"addressRegex": "^((D|A|9)[a-km-zA-HJ-NP-Z1-9]{25,34})$"
+	},
+	{
+		"id": "polygon",
+		"name": "Polygon",
+		"ticker": "MATIC",
+		"icon": "matic",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "solana",
+		"name": "Solana",
+		"ticker": "SOL",
+		"icon": "sol",
+		"addressRegex": "^[1-9A-HJ-NP-Za-km-z]{32,44}"
+	},
+	{
+		"id": "polkadot",
+		"name": "Polkadot",
+		"ticker": "DOT",
+		"icon": "dot",
+		"addressRegex": "^[1-9A-HJ-NP-Za-km-z]{47,48}$"
+	},
+	{
+		"id": "litecoin",
+		"name": "Litecoin",
+		"ticker": "LTC",
+		"icon": "ltc",
+		"addressRegex": "^((L|M)[a-km-zA-HJ-NP-Z1-9]{25,34})|^(ltc1([qpzry9x8gf2tvdw0s3jn54khce6mua7l]{39}|[qpzry9x8gf2tvdw0s3jn54khce6mua7l]{59}))$"
+	},
+	{
+		"id": "shiba-inu",
+		"name": "Shiba Inu",
+		"ticker": "SHIB",
+		"icon": "shib",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "avalanche",
+		"name": "Avalanche",
+		"ticker": "AVAX",
+		"icon": "avax",
+		"addressRegex": "^0x[a-fA-F0-9]{40}$"
+	},
+	{
+		"id": "multi-collateral-dai",
+		"name": "Dai",
+		"ticker": "DAI",
+		"icon": "dai",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "wrapped-bitcoin",
+		"name": "Wrapped Bitcoin",
+		"ticker": "WBTC",
+		"icon": "wbtc",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "chainlink",
+		"name": "Chainlink",
+		"ticker": "LINK",
+		"icon": "link",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "uniswap",
+		"name": "Uniswap",
+		"ticker": "UNI",
+		"icon": "uni",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "stellar",
+		"name": "Stellar",
+		"ticker": "XLM",
+		"icon": "xlm",
+		"addressRegex": "^G[A-Z2-7]{55}$"
+	},
+	{
+		"id": "bitcoin-cash",
+		"name": "Bitcoin Cash",
+		"ticker": "BCH",
+		"icon": "bch",
+		"addressRegex": "^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^((bitcoincash:)?(q|p)[a-z0-9]{41})|^((BITCOINCASH:)?(Q|P)[A-Z0-9]{41})$"
+	},
+	{
+		"id": "lido-dao",
+		"name": "Lido DAO",
+		"ticker": "LDO",
+		"icon": "ldo",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "apecoin",
+		"name": "ApeCoin",
+		"ticker": "APE",
+		"icon": "ape",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "quant",
+		"name": "Quant",
+		"ticker": "QNT",
+		"icon": "qnt",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "aave",
+		"name": "Aave",
+		"ticker": "AAVE",
+		"icon": "aave",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "tezos",
+		"name": "Tezos",
+		"ticker": "XTZ",
+		"icon": "xtz",
+		"addressRegex": "(tz[1|2|3]([a-zA-Z0-9]){33})|(^KT1([a-zA-Z0-9]){33}$)"
+	},
+	{
+		"id": "immutable-x",
+		"name": "ImmutableX",
+		"ticker": "IMX",
+		"icon": "imx",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "axie-infinity",
+		"name": "Axie Infinity",
+		"ticker": "AXS",
+		"icon": "axs",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "the-sandbox",
+		"name": "The Sandbox",
+		"ticker": "SAND",
+		"icon": "sand",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "chiliz",
+		"name": "Chiliz",
+		"ticker": "CHZ",
+		"icon": "chz",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "rocket-pool",
+		"name": "Rocket Pool",
+		"ticker": "RPL",
+		"icon": "rpl",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "curve-dao-token",
+		"name": "Curve DAO Token",
+		"ticker": "CRV",
+		"icon": "crv",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "maker",
+		"name": "Maker",
+		"ticker": "MKR",
+		"icon": "mkr",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "render-token",
+		"name": "Render Token",
+		"ticker": "RNDR",
+		"icon": "rndr",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "convex-finance",
+		"name": "Convex Finance",
+		"ticker": "CVX",
+		"icon": "cvx",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "1inch",
+		"name": "1inch Network",
+		"ticker": "1INCH",
+		"icon": "1inch",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "enjincoin",
+		"name": "Enjin Coin",
+		"ticker": "ENJ",
+		"icon": "enj",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "basic-attention-token",
+		"name": "Basic Attention Token",
+		"ticker": "BAT",
+		"icon": "bat",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "mask-network",
+		"name": "Mask Network",
+		"ticker": "MASK",
+		"icon": "mask",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "ethereum-name-service",
+		"name": "Ethereum Name Service",
+		"ticker": "ENS",
+		"icon": "ens",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "ankr",
+		"name": "Ankr",
+		"ticker": "ANKR",
+		"icon": "ankr",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "audius",
+		"name": "Audius",
+		"ticker": "AUDIO",
+		"icon": "audio",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "compound",
+		"name": "Compound",
+		"ticker": "COMP",
+		"icon": "comp",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "yearn-finance",
+		"name": "yearn.finance",
+		"ticker": "YFI",
+		"icon": "yfi",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "jasmycoin",
+		"name": "JasmyCoin",
+		"ticker": "JASMY",
+		"icon": "jasmy",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "gnosis-gno",
+		"name": "Gnosis",
+		"ticker": "GNO",
+		"icon": "gno",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "threshold-network-token",
+		"name": "Threshold",
+		"ticker": "T",
+		"icon": "t",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "fetch",
+		"name": "Fetch.ai",
+		"ticker": "FET",
+		"icon": "fet",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "sushi",
+		"name": "SushiSwap",
+		"ticker": "SUSHI",
+		"icon": "sushi",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "golem",
+		"name": "Golem",
+		"ticker": "GLM",
+		"icon": "glm",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "ocean-protocol",
+		"name": "Ocean Protocol",
+		"ticker": "OCEAN",
+		"icon": "ocean",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "alchemy-pay",
+		"name": "Alchemy Pay",
+		"ticker": "ACH",
+		"icon": "ach",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "biconomy",
+		"name": "Biconomy",
+		"ticker": "BICO",
+		"icon": "bico",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "skale",
+		"name": "SKALE",
+		"ticker": "SKL",
+		"icon": "skl",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "celer-network",
+		"name": "Celer Network",
+		"ticker": "CELR",
+		"icon": "celr",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "omisego",
+		"name": "OMG Network",
+		"ticker": "OMG",
+		"icon": "omg",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "livepeer",
+		"name": "Livepeer",
+		"ticker": "LPT",
+		"icon": "lpt",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "amp-token",
+		"name": "Amp",
+		"ticker": "AMP",
+		"icon": "amp",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "storj",
+		"name": "Storj",
+		"ticker": "STORJ",
+		"icon": "storj",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "illuvium",
+		"name": "Illuvium",
+		"ticker": "ILV",
+		"icon": "ilv",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "stargate-finance",
+		"name": "Stargate Finance",
+		"ticker": "STG",
+		"icon": "stg",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "kyber-network-crystal",
+		"name": "Kyber Network Crystal",
+		"ticker": "KNC",
+		"icon": "knc",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "playdapp",
+		"name": "PlayDapp",
+		"ticker": "PLA",
+		"icon": "pla",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "pundi-x-2",
+		"name": "Pundi X (New)",
+		"ticker": "PUNDIX",
+		"icon": "pundix",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "synapse-2",
+		"name": "Synapse",
+		"ticker": "SYN",
+		"icon": "syn",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "numeraire",
+		"name": "Numeraire",
+		"ticker": "NMR",
+		"icon": "nmr",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "gitcoin",
+		"name": "Gitcoin",
+		"ticker": "GTC",
+		"icon": "gtc",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "perpetual-protocol",
+		"name": "Perpetual Protocol",
+		"ticker": "PERP",
+		"icon": "perp",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	},
+	{
+		"id": "celo",
+		"name": "Celo",
+		"ticker": "CGLD",
+		"icon": "celo",
+		"addressRegex": "^(?:0x)?[0-9a-fA-F]{40}$"
+	}
+]

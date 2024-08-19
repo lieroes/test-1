@@ -1,0 +1,967 @@
+{
+	"navbar": {
+		"logo-title": "Cvetpay - Digital and Crypto currency exchange!",
+		"links": {
+			"buy": "Buy Crypto",
+			"sell": "Sell Crypto",
+			"about": "About",
+			"policies": "Policies",
+			"adminDashboard": "Admin dashboard",
+			"profileSettings": "Profile Settings",
+			"notifications": "Notifications",
+			"transactions": "Transactions",
+			"logOut": "Log Out"
+		},
+		"auth": {
+			"sign-in": "Log in",
+			"sign-up": "Sign up"
+		}
+	},
+	"pages": {
+		"buy": {
+			"meta": {
+				"title": "Cvetpay | Buy Crypto",
+				"description": ""
+			},
+			"hero": {
+				"welcome": "Welcome",
+				"title": {
+					"part1": "The most secure",
+					"highlighted": "cryptocurrency"
+				},
+				"description": "Cvetpay offers a fast and simple way to buy and sell cryptocurrencies. Buy crypto with credit card, bank transfers or alternative payment methods."
+			},
+			"actionButtons": {
+				"buy": "Buy crypto",
+				"sell": "Sell crypto"
+			},
+			"title": "Buy Crypto with Fiat Currencies",
+			"selectTitles": {
+				"spend": "You Spend",
+				"receive": "You Receive"
+			},
+			"commission": {
+				"title": "Commission details",
+				"service": "Service fee",
+				"network": "Network fee"
+			},
+			"button": "Buy crypto"
+		},
+		"sell": {
+			"meta": {
+				"title": "Cvetpay | Sell Crypto",
+				"description": ""
+			},
+			"hero": {
+				"welcome": "Welcome",
+				"title": {
+					"part1": "The most secure",
+					"highlighted": "cryptocurrency"
+				},
+				"description": "Buy, store, swap and spend cryptocurrency all in one app. Turn Bitcoin into dollars with the BitPay crypto debit card. Earn cash back automatically."
+			},
+			"actionButtons": {
+				"buy": "Buy crypto",
+				"sell": "Sell crypto"
+			},
+			"title": "Sell Crypto to Your Card Fast and Safe",
+			"selectTitles": {
+				"spend": "You Spend",
+				"receive": "You Receive"
+			},
+			"commission": {
+				"title": "Commission details",
+				"service": "Service fee",
+				"network": "Network fee"
+			},
+			"button": "Sell crypto"
+		},
+		"order": {
+			"meta": {
+				"title": "Cvetpay | Order",
+				"description": ""
+			},
+			"headerSteps": [
+				"Requisites",
+				"Payment Method",
+				"Payment",
+				"Verification",
+				"Payout",
+				"Result"
+			],
+			"footer": {
+				"serviceFee": "Service fee",
+				"networkFee": "Network fee",
+				"invoice": "Invoice"
+			},
+			"wallet": {
+				"title": {
+					"fiat": "Your Bank Requisites",
+					"crypto": "Your Wallet"
+				},
+				"requisites": {
+					"crypto": "Your wallet address",
+					"fiat": "Your Bank Requisites or card number"
+				},
+				"button": "Continue"
+			},
+			"paymentMethod": {
+				"title": "Payment method",
+				"safeCard": "Pay with PaySafeCard",
+				"bankCard": "Pay with card",
+				"bankTransfer": "Pay with bank account",
+				"button": "Continue"
+			},
+			"payment": {
+				"title": "Make a payment",
+				"subtitle": "Transfer <span style=\"font-weight: bold;\">[ORDER_DATA]</span> to requisites specified below:",
+				"subtitlePaySafeCard": "Please click the button below to be redirected to the payment page",
+				"iban": "IBAN",
+				"swift": "SWIFT/BIC",
+				"beneficiary": "Beneficiary",
+				"beneficiaryAddress": "Beneficiary address",
+				"registrationNumber": "Reg. nr.",
+				"bank": "Bank",
+				"paymentReference": "Payment reference",
+				"button": "Continue",
+				"buttonPaySafeCard": "Proceed to payment"
+			},
+			"transfer": {
+				"title": "Payout started",
+				"subtitle": "We've started sending funds to the requisites you specified. This process can last from 5 to 30 minutes."
+			},
+			"success": {
+				"title": "Payment completed",
+				"subtitle": "Your order has been successfully completed.<br/>Thank you for using our service.",
+				"button": "Go to main page"
+			},
+			"error": {
+				"title": "Some error happened",
+				"subtitle": "An error occurred while processing your application. Contact our technical support to clarify the circumstances.",
+				"button": "Support"
+			}
+		},
+		"settings": {
+			"meta": {
+				"title": "Cvetpay | Profile Settings",
+				"description": ""
+			},
+			"profileTitle": "Your profile",
+			"email": "E-mail",
+			"phone": "Phone",
+			"firstName": "First name",
+			"lastName": "Last name",
+			"passwordTitle": "Reset password",
+			"password": "Password",
+			"passwordConfirm": "Confirm password",
+			"button": "Save changes"
+		},
+		"transactions": {
+			"meta": {
+				"title": "Cvetpay | Transactions",
+				"description": ""
+			},
+			"searchBarPlaceholder": "Search transactions",
+			"transactionsNotFound": "You don't have any transactions"
+		},
+		"notifications": {
+			"meta": {
+				"title": "Cvetpay | Notifications"
+			},
+			"notificationsNotFound": "You don't have any notifications yet"
+		},
+		"adminRequisites": {
+			"meta": {
+				"title": "Cvetpay | Admin | Requisites"
+			},
+			"bankRequisitesTitle": "Bank Requisites",
+			"cryptoRequisitesTitle": "Crypto Requisites",
+			"card": "Card Number",
+			"iban": "IBAN",
+			"swift": "SWIFT/BIC",
+			"beneficiary": "Beneficiary",
+			"beneficiaryAddress": "Beneficiary address",
+			"registrationNumber": "Reg. nr.",
+			"bank": "Bank",
+			"button": "Save changes"
+		},
+		"adminUsers": {
+			"meta": {
+				"title": "Cvetpay | Admin | Users"
+			},
+			"searchBarPlaceholder": "Search users",
+			"usersNotFound": "You don't have any transactions"
+		},
+		"adminEditUser": {
+			"meta": {
+				"title": "Cvetpay | Admin | Edit User Profile"
+			},
+			"detailsTitle": "User Details",
+			"id": "User ID",
+			"role": "Role",
+			"registrationDate": "Registration Date",
+			"lastActionDate": "Last Action Date",
+			"email": "Email",
+			"phone": "Phone",
+			"firstName": "First name",
+			"lastName": "Last name",
+			"gender": "Gender",
+			"male": "Male",
+			"female": "Female",
+			"dateOfBirth": "Date of Birth",
+			"countryCode": "Country Code",
+			"town": "Town",
+			"street": "Street",
+			"formattedAddress": "Formatted Address",
+			"passwordTitle": "Reset user password",
+			"password": "Password",
+			"passwordConfirm": "Confirm password",
+			"button": "Save changes",
+			"ordersTitle": "User Orders"
+		},
+		"adminTransactions": {
+			"meta": {
+				"title": "Cvetpay | Admin | Transactions"
+			},
+			"searchBarPlaceholder": "Search transactions",
+			"transactionsNotFound": "Transactions not found"
+		},
+		"adminEditTransaction": {
+			"meta": {
+				"title": "Cvetpay | Admin | Edit Transaction"
+			},
+			"title": "Order Details",
+			"id": "Order Id",
+			"date": "Date",
+			"fromCurrency": "From Currency",
+			"toCurrency": "To Currency",
+			"fromAmount": "From Amount",
+			"toAmount": "To Amount",
+			"serviceFee": "Service Fee",
+			"networkFee": "Network Fee",
+			"receiver": "Receiver",
+			"exchangeRate": "Exchange Rate",
+			"orderStatus": "Order Status",
+			"button": "Save changes"
+		},
+		"signIn": {
+			"meta": {
+				"title": "Cvetpay | Sign In"
+			},
+			"title": "Welcome",
+			"email": "Email",
+			"password": "Password",
+			"button": "Log in",
+			"registerLink": "Sign up"
+		},
+		"signUp": {
+			"meta": {
+				"title": "Cvetpay | Sign Up"
+			},
+			"title": "Set a password",
+			"password": "Password",
+			"passwordConfirm": "Confirm Password",
+			"button": "Continue",
+			"registerLink": "Don't have an account? Register"
+		},
+		"signUpError": {
+			"meta": {
+				"title": "Cvetpay | Error during registration"
+			},
+			"title": "Ooops...",
+			"text": "Something went wrong during the registration process. Please contact support to clarify circumstances",
+			"button": "Support"
+		},
+		"faq": {
+			"meta": {
+				"title": "Cvetpay | FAQ",
+				"description": ""
+			},
+			"heading": "Faq",
+			"items": [
+				{
+					"title": "How can I exchange one currency to another one?",
+					"text": "<b>1.</b>Register and verify your account.<br /><b>2.</b>Go to Exchange page and choose the type of currency you want to spend.<br /><b>3.</b>Choose the type of currency you want to receive.<br /><b>4.</b>Type in the money amount you want to spend.<br /><b>5.</b>Press the Continue button.<br /><b>6.</b>Fill in all essential information into the boxes marked with *.<br /><b>7.</b>Read and agree with Terms &amp; Conditions and press button Continue.<br /><b>8.</b>Complete a payment using details provided in order description, those you can find in your Dashboard section.<br /><b>9.</b>Please wait while our operator checks your payment.<br /><b>10.</b>Check realtime status of your order over Dashboard."
+				},
+				{
+					"title": "Can you help me if I run into problems?",
+					"text": "Of course! Our support team is ready to help you 24/7; just drop us a line in our chat window. You may also browse our extensive support portal.<br/><br/>Make sure you also keep an eye on your inbox. We might send you an email if we require any additional information."
+				},
+				{
+					"title": "How long does it take to complete an exchange from start to end?",
+					"text": "It all depends on the chosen type of exchange. Please contact our Support Agents for details."
+				},
+				{
+					"title": "Can I cancel my recent order/s if the payment already has been sent?",
+					"text": "No, if you have already made a payment using the details provided in order description, then this order is considered as completed and can't be canceled."
+				},
+				{
+					"title": "Can I reopen a canceled order?",
+					"text": "Unfortunately, you can’t reopen a canceled order."
+				},
+				{
+					"title": "How do I secure my account?",
+					"text": "Invent random symbol password and remember it. If you lose it you, can always recover the password via email. "
+				}
+			]
+		},
+		"aboutUs": {
+			"meta": {
+				"title": "Cvetpay | About us",
+				"description": ""
+			},
+			"heading": "About us",
+			"text": "We are a team of passionate blockchain enthusiasts who have come together to help you participate in this exciting new world.<br/>More specifically, we developed a platform to help you buy and sell your favorite cryptocurrencies using a variety of (often unusual) payment methods.",
+			"data": {
+				"country": "Poland"
+			},
+			"contacts": {
+				"title": "Contacts",
+				"address": "Address",
+				"name": "Legal Name",
+				"street": "Street Address",
+				"city": "City",
+				"country": "Country",
+				"postCode": "Postal Code",
+				"prEmail": "Public Relationship Department",
+				"businessEmail": "Business offer"
+			}
+		},
+		"contacts": {
+			"meta": {
+				"title": "Cvetpay | Contacts",
+				"description": ""
+			},
+			"heading": "Contacts",
+			"subheading": "Give your users the most user-friendly experience of buying and selling crypto.",
+			"info": {
+				"country": "Country",
+				"department": "Public Relationship Department",
+				"address": "Address",
+				"business": "Business offer"
+			},
+			"homeLink": "Home",
+			"chat": "live chat",
+			"support": "support portal",
+			"prEmail": "Public Relationship Department",
+			"businessEmail": "Business offer"
+		},
+		"aml-kyc-policy": {
+			"meta": {
+				"title": "Cvetpay | AML/KYC Policy",
+				"description": ""
+			},
+			"heading": "AML/KYC Policy",
+			"homeLink": "Home",
+			"sidebar": {
+				"title": "Policies:",
+				"items": [
+					"1. Terms Of Use",
+					"2. Privacy policy",
+					"3. AML/KYC Policy",
+					"4. Public Offer",
+					"5. Cookies Policy",
+					"6. Dispute Resolution",
+					"7. Risk Disclosure"
+				]
+			},
+			"items": [
+				{
+					"title": "Introduction",
+					"text": "\"Cvetpay\" Anti-Money Laundering and \"Know Your Customer\" policy (hereinafter — \"AML / KYC Policy\") is designed to prevent and reduce possible risks of involvement of the <a href=\"https://wallet.Cvetpay.eu/\">https://wallet.Cvetpay.eu</a> platform in any types of illegal activities. Both international and local regulations require UAB \"Cvetpay\" to implement effective internal procedures and mechanisms to prevent money laundering, terrorist financing, drug and human trafficking, proliferation of weapons of mass destruction, corruption and bribery, as well as to take action in case of any suspicious activity on the part of their users."
+				},
+				{
+					"title": "Verification Procedures",
+					"text": "Customer due diligence is one of the international standards for preventing illegal activity. ID confirmation UAB \"Cvetpay\" is an identity verification procedure that requires the User to provide reliable, independent source documents, data or information (e.g. national ID, passport, bank statement, utility bill). For such purposes, UAB \"Cvetpay\" works with an organization certified for these purposes. UAB \"Cvetpay\" reserves the right to verify the identity of the User on an ongoing basis, especially if his identification information has been changed or their actions seem suspicious (unusual for a particular User). In addition, UAB \"Cvetpay\" reserves the right to request up-to-date documents from users, even if they have passed identity verification in the past. User identification information will be collected, stored, transmitted and protected strictly in accordance with the Privacy Policy and relevant provisions.<br/><br/>Verification of sanctions and lists of politically exposed persons.<br/><br/>UAB \"Cvetpay\" instructs a certified company to verify Users against a list of recognized sanctions and politically exposed persons. At the adaptation stage, when the user submits an application. Each Anti-Fraud and AML Alert manually by a Compliance Officer monthly by automatically launching with a script to re-check the entire client database."
+				},
+				{
+					"title": "Compliance Officer",
+					"text": "The Compliance Officer is a person duly authorized by UAB \"Cvetpay\" who is responsible for ensuring that the AML / KYC Policy is effectively implemented and adhered to. The Compliance Officer is responsible for overseeing all aspects of AML / CFT activities, including but not limited to: - Collection of user identification information; - Establish and update internal policies and procedures for completing, reviewing, submitting and maintaining all reports and records required by applicable laws and regulations; - Monitoring transactions and investigating any significant deviations from normal activities; - Implementation of a records management system for the proper storage and retrieval of documents, files, forms and logs; - Regular update of the risk assessment; - Providing information to law enforcement agencies in accordance with applicable laws and regulations; - The Compliance Officer has the right to interact with law enforcement agencies that are involved in the prevention of money laundering, terrorist financing and other illegal activities."
+				},
+				{
+					"title": "Monitoring Transactions",
+					"text": "With regard to the AML / KYC policy, UAB \"Cvetpay\" will monitor all transactions and reserves the right to: ensure that transactions of a suspicious nature are reported to the appropriate law enforcement authorities through the Compliance Officer; request additional information and documents from the User in case of suspicious transactions; suspend or terminate the User's Account if there are reasonable suspicions that such User is engaged in illegal activity. The above list is not exhaustive and the Compliance Officer will monitor user transactions on a daily basis to determine whether such transactions should be reported and viewed as suspicious or considered bona fide."
+				},
+				{
+					"title": "Risk Assessment",
+					"text": "UAB \"Cvetpay\", in accordance with international requirements, takes a risk-based approach to combating money laundering and terrorist financing. By adopting a risk-based approach, UAB \"Cvetpay\" can ensure that measures to prevent or mitigate money laundering and terrorist financing are commensurate with the risks identified. This will allow resources to be allocated in the most efficient way. The principle is that resources should be prioritized so that the greatest attention is paid to the greatest risks."
+				}
+			]
+		},
+		"cookies-policy": {
+			"meta": {
+				"title": "Cvetpay | Cookies Policy",
+				"description": ""
+			},
+			"heading": "Policies",
+			"homeLink": "Home",
+			"sidebar": {
+				"title": "Policies:",
+				"items": [
+					"1. Terms Of Use",
+					"2. Privacy policy",
+					"3. AML/KYC Policy",
+					"4. Public Offer",
+					"5. Cookies Policy",
+					"6. Dispute Resolution",
+					"7. Risk Disclosure"
+				]
+			},
+			"items": [
+				{
+					"title": "Introduction UAB",
+					"text": "“Cvetpay” Anti-Money Laundering and “Know Your Customer” policy (hereinafter — “AML / KYC Policy”) is designed to prevent and reduce possible risks of involvement of the <a href=\"https://wallet.Cvetpay.eu\">https://wallet.Cvetpay.eu</a> platform in any types of illegal activities. Both international and local regulations require UAB “Cvetpay” to implement effective internal procedures and mechanisms to prevent money laundering, terrorist financing, drug and human trafficking, proliferation of weapons of mass destruction, corruption and bribery, as well as to take action in case of any suspicious activity on the part their users."
+				},
+				{
+					"title": "Verification procedures",
+					"text": "Customer due diligence is one of the international standards for preventing illegal activity. ID confirmation UAB “Cvetpay” is an identity verification procedure that requires the User to provide reliable, independent source documents, data or information (e.g. national ID, passport, bank statement, utility bill). For such purposes, UAB “Cvetpay” works with an organization certified for these purposes. UAB “Cvetpay” reserves the right to verify the identity of the User on an ongoing basis, especially if his identification information has been changed or their actions seem suspicious (unusual for a particular User). In addition, UAB “Cvetpay” reserves the right to request up-to-date documents from users, even if they have passed identity verification in the past. User identification information will be collected, stored, transmitted and protected strictly in accordance with the Privacy Policy and relevant provisions."
+				},
+				{
+					"title": "Verification of sanctions and lists of politically exposed persons",
+					"text": "UAB “Cvetpay” instructs a certified company to verify Users against a list of recognized sanctions and politically exposed persons. At the adaptation stage, when the user submits an application. Each Anti-Fraud and AML Alert manually by a Compliance Officer monthly by automatically launching with a script to re-check the entire client database."
+				},
+				{
+					"title": "Compliance Officer",
+					"text": "The Compliance Officer is a person duly authorized by UAB “Cvetpay” who is responsible for ensuring that the AML / KYC Policy is effectively implemented and adhered to. The Compliance Officer is responsible for overseeing all aspects of AML / CFT activities, including but not limited to: - Collection of user identification information; - Establish and update internal policies and procedures for completing, reviewing, submitting and maintaining all reports and records required by applicable laws and regulations; - Monitoring transactions and investigating any significant deviations from normal activities; - Implementation of a records management system for the proper storage and retrieval of documents, files, forms and logs; - Regular update of the risk assessment; - Providing information to law enforcement agencies in accordance with applicable laws and regulations; - The Compliance Officer has the right to interact with law enforcement agencies that are involved in the prevention of money laundering, terrorist financing and other illegal activities."
+				},
+				{
+					"title": "Monitoring transactions",
+					"text": "With regard to the AML / KYC policy, UAB “Cvetpay” will monitor all transactions and reserves the right to: ensure that transactions of a suspicious nature are reported to the appropriate law enforcement authorities through the Compliance Officer; request additional information and documents from the User in case of suspicious transactions; suspend or terminate the User's Account if there are reasonable suspicions that such User is engaged in illegal activity. The above list is not exhaustive and the Compliance Officer will monitor user transactions on a daily basis to determine whether such transactions should be reported and viewed as suspicious or considered bona fide."
+				},
+				{
+					"title": "Risk assessment",
+					"text": "UAB “Cvetpay”, in accordance with international requirements, takes a risk-based approach to combating money laundering and terrorist financing. By adopting a risk-based approach, UAB “Cvetpay” can ensure that measures to prevent or mitigate money laundering and terrorist financing are commensurate with the risks identified. This will allow resources to be allocated in the most efficient way. The principle is that resources should be prioritized so that the greatest attention is paid to the greatest risks."
+				}
+			]
+		},
+		"dispute-resolution": {
+			"meta": {
+				"title": "Cvetpay | Dispute Resolution"
+			},
+			"heading": "Policies",
+			"homeLink": "Home",
+			"sidebar": {
+				"title": "Policies:",
+				"items": [
+					"1. Terms Of Use",
+					"2. Privacy policy",
+					"3. AML/KYC Policy",
+					"4. Public Offer",
+					"5. Cookies Policy",
+					"6. Dispute Resolution",
+					"7. Risk Disclosure"
+				]
+			},
+			"items": [
+				{
+					"title": "Dispute Resolution Procedure",
+					"text": "If you have any technical problems/issues, please contact support team of UAB Cvetpay (“Cvetpay”, “we”, “us” or “our”). UAB Cvetpay wants to address your concerns without resorting to formal legal proceedings, if possible. Please contact us by email: support@Cvetpay.eu or telephone: +370 66752135. If you have any concerns with our services (not connected with technical issues), please send us an email (info@Cvetpay.eu). The letter commences the internal dispute resolution procedure. The Cvetpay will attempt to resolve the dispute internally as soon as possible. The Cvetpay will make every effort to respond your letter in 15 (fifteen) business days. The parties agree to negotiate in good faith to resolve the dispute (which discussions shall remain confidential and be subject to applicable rules protecting settlement discussions from use as evidence in any legal proceeding).<br/><br/>In the event the dispute cannot be resolved satisfactorily, and you wish to assert a legal claim against the Cvetpay, then the dispute may be submitted by you to relevant Lithuanian district court.<br/><br/>The legal regulation of the disputes is carried out on the basis of the legislation of Lithuania."
+				}
+			]
+		},
+		"privacy-policy": {
+			"meta": {
+				"title": "Cvetpay | Privacy Policy"
+			},
+			"heading": "Policies",
+			"homeLink": "Home",
+			"sidebar": {
+				"title": "Policies:",
+				"items": [
+					"1. Terms Of Use",
+					"2. Privacy policy",
+					"3. AML/KYC Policy",
+					"4. Public Offer",
+					"5. Cookies Policy",
+					"6. Dispute Resolution",
+					"7. Risk Disclosure"
+				]
+			},
+			"items": [
+				{
+					"title": "Privacy Policy",
+					"text": "This Privacy Policy describes the policies and procedures of UAB Cvetpay (\"we\", \"our\" or \"us\") regarding the collection, use and disclosure of your information when using the Wallet software product."
+				},
+				{
+					"title": "Overview",
+					"text": "In order to access Wallet services and identify you when registering or authorizing, we ask for personal information such as a mobile phone number or email address to exclude the possibility of using your account by others. We do not share your information with third parties except to provide you with Third Party Services."
+				},
+				{
+					"title": "Acceptance of this policy",
+					"text": "By using the Wallet, you consent to the use, disclosure and practices set forth in this Privacy Policy."
+				},
+				{
+					"title": "PERSONAL INFORMATION WE REQUIRE",
+					"text": "Personal information: phone number or email address.<br/><br/>Other required information: - public addresses of your accounts that you received in our Wallet, - the IP address of the computer you are using to access, - the type of browser you are using, - operating system you are using, - the date and time you access or use the Wallet, - other traffic data that does not allow identification."
+				},
+				{
+					"title": "COLLECTION OF INFORMATION BY THIRD PARTY SERVICES",
+					"text": "Some services in the Wallet are provided by third-party organizations, such as processing bank cards when buying cryptocurrency, paying to the addresses of projects that I provide services by accepting cryptocurrency as payment for my services, which requires mandatory KYC procedures, which in turn are carried out by a certified third-party service, collecting, transmitting and storing Users' personal information on its resources. By submitting personal information to third-party services, you consent to the processing of data about you by these third-party services. Please note that your use of these Third Party Services is subject to their respective Terms of Service and Privacy Policy. We use and disclose any information collected in accordance with our own Privacy Policy."
+				},
+				{
+					"title": "USE OF COLLECTED INFORMATION",
+					"text": "We use the limited information we collect to improve the operation of the Wallet and to keep your assets safe. We may share your Personal Information with our employees, contractors, agents, service providers and designees (\"Agents\") to enable them to provide certain services exclusively for us, including: - improvement of services and functions related to the performance of maintenance, - business transfer, - buying or selling assets.<br/><br/>In these matters, customer information is usually one of the transferred business assets."
+				},
+				{
+					"title": "DATA SECURITY",
+					"text": "We are committed to protecting your information and employ several physical and electronic safeguards to keep your information secure, including encrypted user passwords, two-factor verification and password authentication where possible, and securing all connections with industry-standard transport layer security. Even with all of these precautions, we cannot fully guarantee against access, disclosure, alteration or deletion of data as a result of events, including, but not limited to, hardware or software failure or unauthorized use. Any information you provide to us is transmitted solely at your own risk."
+				},
+				{
+					"title": "CHANGES AND UPDATES TO THE PRIVACY POLICY",
+					"text": "We reserve the right to update and revise this privacy policy at any time to comply with applicable laws and changes in our business. If we revise this Privacy Policy, we will update the \"Effective Date\" and do our best to notify you. Any use of the Wallet following the posting of an amendment to our Privacy Policy constitutes your acceptance of the revised or amended agreement."
+				},
+				{
+					"title": "INTERNATIONAL USERS AND VISITORS",
+					"text": "The wallet is hosted in the European Union zone. If you are a user accessing the Services from Asia, or any other region where the laws or regulations governing the collection, use and disclosure of personal data are different from EU laws, please note that by continuing to use the Services, you are transferring your Personal Information in the EU and consent to such transfer."
+				}
+			]
+		},
+		"public-offer": {
+			"meta": {
+				"title": "Cvetpay | Public Offer"
+			},
+			"heading": "Policies",
+			"homeLink": "Home",
+			"sidebar": {
+				"title": "Policies:",
+				"items": [
+					"1. Terms Of Use",
+					"2. Privacy policy",
+					"3. AML/KYC Policy",
+					"4. Public Offer",
+					"5. Cookies Policy",
+					"6. Dispute Resolution",
+					"7. Risk Disclosure"
+				]
+			},
+			"items": [
+				{
+					"title": "Public Offer to Conclude an Agreement to Buy/Sell a Virtual Asset",
+					"text": "General Provisions<br/>UAB “Cvetpay” (Seller) is a legal entity registered in Lithuania, registration number 306920599, having its registered office at Vilnius, A. Goštauto g. 8-224, LT-01108. \"Buyer\" - any individual or legal entity that has expressed a desire to accept the offer. This document is a public offer and if the conditions set out in the offer are accepted, the person concludes an agreement to buy/sell a virtual asset. The offer includes a list of virtual assets and all essential conditions for concluding a buy/sell agreement. Acceptance of an offer means payment for an asset by the proposed method within the time interval of the current value of the asset. The offer is published on the Internet at: <a href=\"https://Cvetpay.eu/\">https://Cvetpay.eu/</a>.<br/><br/>"
+				},
+				{
+					"title": "Subject of the Contract",
+					"text": "The Seller undertakes to make a transaction (make a record in the blockchain network) of virtual assets to the address specified by the Buyer. And the Buyer undertakes to pay for the virtual asset at the cost specified in the offer, in accordance with the selected number of units of goods and in the specified way. Transaction means the transfer of the specified amount of a virtual asset from the Seller's blockchain address to the Buyer's blockchain address. The record of the transition of the rights of a virtual asset from one address to another address in the blockchain is confirmed by several independent witnesses and is publicly available by a special public identifier \"txid\". Confirmation records is a paid operation, therefore the Buyer chooses who will pay for this service, either he or the Seller.<br/><br/>"
+				},
+				{
+					"title": "Price of a Virtual Asset",
+					"text": "The price per unit of each asset is specified in the offer, the same for anyone who wants to conclude a contract. The value of the asset is subject to strong volatility depending on supply and demand in the market, therefore its constancy for anyone who wishes is fixed for a certain period of time in which it is necessary to accept the offer. If the Buyer does not meet this time period, then the offer with these conditions is withdrawn and the buyer is offered new conditions for concluding the contract.<br/><br/>"
+				},
+				{
+					"title": "Accounts for the Transfer of Rights Under the Contract",
+					"text": "The recording of the transfer of rights under the agreement to buy/sell a virtual asset is made by creating a record in the blockchain network corresponding to each name of the asset (transaction record). Each entry in the network is assigned a unique txid number, which is displayed to both the buyer and the seller. This number is a link to view the record of the transfer of rights and proof of the transaction, indicating the date and time. A record of confirmation of payment under the agreement is reflected in the statements of financial institutions through which payment is made. These records are also available to two parties. The transfer and receipt of rights to a virtual asset is displayed in the accounts of the Seller and the buyer in the relevant programs that provide access to the blockchain.<br/><br/>"
+				},
+				{
+					"title": "Place of Conclusion of the Contract to Buy/Sell and Its Legal Regulation",
+					"text": "The place of conclusion of the agreement and all agreements based on it and/or related to it by the parties is the Seller's trading platform located on the Internet at: <a href=\"https://Cvetpay.eu/\">https://Cvetpay.eu/</a>. The legal regulation of the purchase and sale agreement, as well as the protection of the rights and interests of the Seller and the Buyer, is carried out on the basis of the legislation of Lithuania. Protection of the rights and interests of the parties is carried out in the territory of the Seller's registration. Seller: UAB “Cvetpay”.<br/><br/>"
+				}
+			]
+		},
+		"risk-disclosure": {
+			"meta": {
+				"title": "Cvetpay | Risk Disclosure"
+			},
+			"heading": "Policies",
+			"homeLink": "Home",
+			"sidebar": {
+				"title": "Policies:",
+				"items": [
+					"1. Terms Of Use",
+					"2. Privacy policy",
+					"3. AML/KYC Policy",
+					"4. Public Offer",
+					"5. Cookies Policy",
+					"6. Dispute Resolution",
+					"7. Risk Disclosure"
+				]
+			},
+			"items": [
+				{
+					"title": "Risk Disclosure",
+					"text": "Owning and using virtual assets involves significant risk. Prices for virtual assets fluctuate significantly. Due to such price fluctuations, you can increase or decrease the value of your virtual assets at any time. Any currency - virtual or not - can fluctuate greatly in value and even depreciate. There is an inherent risk that losses will result from buying, selling or trading anything in the market. Unlike most currencies, which are backed by governments or other entities, or by commodities like gold or silver, a virtual asset is backed by technology and trust. There is no central bank that can take corrective action to protect their value or release more virtual assets. Cvetpay users are expected to understand these risks. In addition, there may be other risks that are not covered or specified in our Terms of Service. You must carefully assess whether your financial position and risk tolerance are suitable for buying, selling, trading virtual assets, and using them in transferring to various projects."
+				}
+			]
+		},
+		"terms-of-use": {
+			"meta": {
+				"title": "Cvetpay | Terms of Use"
+			},
+			"heading": "Policies",
+			"homeLink": "Home",
+			"sidebar": {
+				"title": "Policies:",
+				"items": [
+					"1. Terms Of Use",
+					"2. Privacy policy",
+					"3. AML/KYC Policy",
+					"4. Public Offer",
+					"5. Cookies Policy",
+					"6. Dispute Resolution",
+					"7. Risk Disclosure"
+				]
+			},
+			"items": [
+				{
+					"title": "Terms of Use",
+					"text": "This User Agreement (\"Agreement\") is an electronic agreement between you (\"You\", \"User\") and UAB Cvetpay (\"Lithuania\", \"we\"), regarding your use of our mobile application, the Platform, or any related application programming interfaces (API). For the purposes of this Agreement, UAB Cvetpay duly registered and operated under the laws of Lithuania under the registration number 306920599, having its registered office at Vilnius, A. Goštauto g. 8-224, LT-01108. Cvetpay UAB manages the software package and provides the Service for the purchase of a virtual asset, custodial storage of an asset, execution of instructions from the owners of an asset to move it, a service for selling a virtual asset and receiving it."
+				},
+				{
+					"title": "CONSENT TO TERMS OF USE",
+					"text": "This Agreement is deemed to be accepted by you subject to the following conditions: - You have read the terms of this Agreement and all its essential parts (with any changes and/or amendments to them); - You have provided the required mark in the special field under the heading \"I accept the terms of the User Agreement\" in the registration form; - You clicked on the \"Continue\" button after completing the registration form, which means you agree and understand the terms of this Agreement."
+				},
+				{
+					"title": "TERMINOLOGY",
+					"text": "Account — a pair of private and public keys, which stores a digital expression of the value or contractual rights. (Account of a specific name of the cryptocurrency) Custodial storage of cryptocurrency implies the transfer of a private key from the account to another person (Wallet), in order to save it and the right to create transactions Wallet — a program that provides access to accounts. The wallet can give access to several accounts and support work with them. The wallet program does not “store cryptocurrency in itself” in the form of some data, but is able to communicate with the blockchain (display account information, form transactions or search for information in the blockchain). Cryptocurrency, Virtual Currency, Virtual Asset — a cryptographically secured digital expression of value or contractual rights that uses distributed ledger technology and can be transmitted, stored and displayed electronically. User — any Person who is registered in the Wallet program and has agreed to the terms and conditions of this Agreement. Authorization of the User — the implementation by the User of a certain set of actions in order to identify the registered User for subsequent use of the functionality of the Wallet program. Privacy Policy — the rules for collecting, storing, distributing and protecting the User's Personal Data received by the Wallet program, which is an integral part of the Agreement."
+				},
+				{
+					"title": "SUBJECT OF THE AGREEMENT",
+					"text": "In accordance with this Agreement, the Wallet provides the Users with the following services: - providing access to the public part of the account to view the account balance account private key storage, - formation of a transaction in the blockchain based on the available private key of the user account on his behalf, - receiving cryptocurrency to the public address of the user, - services for the purchase and sale of cryptocurrency, indicating the address of receipt of the purchased cryptocurrency or bank account details when selling cryptocurrency, - services for legal entities, wallet users, for receiving cryptocurrency from other wallet users, - services for legal entities and individuals for inclusion in the catalog of projects that accept cryptocurrency as payment for their services."
+				},
+				{
+					"title": "REFUNDS",
+					"text": "Refunds are not possible for transactions in which the user buys cryptocurrency. However, if the user changes their mind and wants to return the purchased Cryptocurrency, Cvetpay UAB will be able to redeem it at the current market rate minus the transaction fee. In other words, the User can sell the purchased Cryptocurrency for fiat funds and thereby return the virtual currency, paying all necessary fees and charges. In case of a return, the User is obliged to return exactly the amount of virtual currency that he received from the seller to the seller’s address. If it is impossible to provide the required amount of virtual currency during the return procedure, the User is obliged to purchase this amount, exclusively from the seller, in order to reduce the risks of returning virtual currency that has not been monitored in accordance with the legislation of the Republic of Lithuania on AML."
+				},
+				{
+					"title": "COMPLIANCE WITH THE REQUIREMENTS",
+					"text": "By logging in to the Wallet, you represent and warrant that: - You have reached the age of legal capacity to enter into and be bound by a contract under the laws of your jurisdiction; - You are an individual or legal entity with full legal capacity and capacity and sufficient authority to enter into this Agreement; - Previously, you have not been banned or temporarily restricted from using our Wallet. You are not: - a resident or citizen of one of the jurisdictions included in the high-risk group and other controlled jurisdictions in accordance with the definition (FATF), - a citizen of a jurisdiction that prohibits the use of Cryptocurrencies, - a national of a jurisdiction on the (EU) 2016/1675 list or UN Security Council sanctions list. There may be other factors that will restrict Users from using all or part of the Wallet services. You are solely responsible for compliance with the relevant Laws in force in the territory of your residence (registration) and/or the territory of your stay, from which you use the Wallet. Wallet reserves the right to restrict or deny services if required by our AML/KYC Policy. If we find that you have violated this Agreement or other regulatory requirements, including but not limited to the Bank Secrecy Act, by engaging in money laundering or financing terrorist activities, we will take appropriate disciplinary action."
+				},
+				{
+					"title": "TERMINATION OF SERVICES",
+					"text": "We may, in our sole discretion and at no cost to you, with or without prior notice, and at any time, change or discontinue, temporarily or permanently, any part of our Services, including authorization blocking, if, we know or reasonably suspect that the provision of one or multiple Services: - is fraudulent or associated with any criminal activity, - is money laundering or is involved in money laundering activities, or violates applicable law, or - you may not provide, upon request, documentation that is reasonably required to fulfill our obligations under applicable money laundering laws and regulations or otherwise to provide verification of your identity and/or sources of funding as required by our Policies."
+				},
+				{
+					"title": "LIMITATION OF LIABILITY AND WARRANTY DISCLAIMER",
+					"text": "You understand and agree that we have no control over, and are under no obligation to take any action with respect to: - failures, errors or delays in the processing of Virtual Currency that may occur when using the Wallet; - the risk of failure of hardware, software and Internet connections; - the risk of introducing or detecting malicious software; - the risk that third parties may gain unauthorized access to the information stored in your Wallet; - the risk of unknown vulnerabilities or unforeseen changes in networks. We make no representations regarding any Third Party Content contained in or available through our Services. Any other terms, conditions, warranties or representations related to such content are solely between you and such organizations and/or individuals."
+				},
+				{
+					"title": "FORCE MAJEURE",
+					"text": "We are not responsible for any delay, disruption or interruption of service that results directly or indirectly from any cause or condition beyond our reasonable control, including but not limited to: any delay or failure due to any act of God, act of civil or military authorities, act of terrorism, civil unrest, war, strike or other industrial dispute, fire, interruption of telecommunications and Internet services or network provider services, equipment and/or software failure, other disaster or any other incident that is beyond our reasonable control and does not affect the validity and enforceability of any remaining provisions."
+				},
+				{
+					"title": "PURPOSE",
+					"text": "You agree that we may assign any of our rights and/or transfer, subcontract or delegate any of our obligations under these Terms. Your agreement to these Terms is personal to you and you may not transfer or assign it to any third party."
+				},
+				{
+					"title": "FULL CONSENT",
+					"text": "This Agreement sets forth the entire understanding and agreement with respect to the subject matter of this Agreement, except as provided above, any changes to this Agreement must be made in writing and must be signed by both parties."
+				}
+			]
+		}
+	},
+	"parts": {
+		"memberSidebarLinks": [
+			"Profile settings",
+			"Notifications",
+			"Transactions",
+			"Log Out"
+		],
+		"adminSidebarLinks": [
+			"Requisites",
+			"Users",
+			"Transactions",
+			"Log Out"
+		],
+		"policiesSidebar": {
+			"title": "Policies:",
+			"items": [
+				"1. Terms Of Use",
+				"2. Privacy policy",
+				"3. AML/KYC Policy",
+				"4. Public Offer",
+				"5. Cookies Policy",
+				"6. Dispute Resolution",
+				"7. Risk Disclosure"
+			]
+		},
+		"tableHeader": {
+			"id": "Id",
+			"name": "Name",
+			"email": "Email",
+			"phone": "Phone",
+			"role": "Role",
+			"date": "Date",
+			"operation": "Operation",
+			"invoice": "Invoice",
+			"status": "Status"
+		},
+		"transactionStatuses": [
+			"Verification",
+			"Created",
+			"Created",
+			"Created",
+			"In Progress",
+			"Finished",
+			"Rejected"
+		],
+		"notificationStatusTexts": [
+			"Your transaction has been started verification process",
+			"Your transaction has been verified",
+			"Your transaction has been updated",
+			"Your transaction has been updated",
+			"Your transaction has been updated",
+			"Your transaction has been finished",
+			"Your transaction has been rejected"
+		]
+	},
+	"sections": {
+		"features": {
+			"title": {
+				"part1": "Our",
+				"highlighted": "Features"
+			},
+			"items": [
+				{
+					"title": "Instant payouts",
+					"text": "When you use your debit or credit card"
+				},
+				{
+					"title": "Round-the-clock support",
+					"text": "Our support team is ready to help you 24/7"
+				},
+				{
+					"title": "Worldwide access",
+					"text": "Buy crypto from more than 180 countries worldwide"
+				},
+				{
+					"title": "Fast security checks",
+					"text": "Get into action as quickly as possible"
+				},
+				{
+					"title": "Industry-leading security",
+					"text": "Strictest security standards keep your data and money safe"
+				},
+				{
+					"title": "Low commissions",
+					"text": "Get more crypto for your money"
+				}
+			]
+		},
+		"packages": {
+			"title": "Choose one of our",
+			"second": "packages",
+			"subtitle": "More profitable than the usual exchange",
+			"items": [
+				{
+					"payAmount": 500,
+					"to": "BTC"
+				},
+				{
+					"payAmount": 1000,
+					"to": "BTC"
+				},
+				{
+					"payAmount": 250,
+					"to": "ETH"
+				},
+				{
+					"payAmount": 500,
+					"to": "ETH"
+				},
+				{
+					"payAmount": 250,
+					"to": "LTC"
+				},
+				{
+					"payAmount": 500,
+					"to": "LTC"
+				},
+				{
+					"payAmount": 250,
+					"to": "SOL"
+				},
+				{
+					"payAmount": 500,
+					"to": "SOL"
+				}
+			]
+		},
+		"transactions": {
+			"title": "1 695 340 USD in transactions last 24h",
+			"subtitle": "See our transactions in realtime"
+		},
+		"ctaBlock": {
+			"title": "Get setup in 10 minutes",
+			"subtitle": "Our test environment and documentation make the integration process with our service much easier. The test environment allows developers to thoroughly test the functionality of their applications without risking real funds, ensuring the reliability and stability of their work.",
+			"button": "Get started"
+		},
+		"guide": {
+			"header": {
+				"title": {
+					"part1": "Cryptocurrency Buying",
+					"highlighted": "Made Easy"
+				}
+			},
+			"title": "Step-by-Step Guide to Buying Cryptocurrency",
+			"items": [
+				{
+					"title": "Sign Up for a Free Cvetpay Account",
+					"text": "To purchase cryptocurrency with a debit or credit card, you'll need to register for an account on Cvetpay. The sign-up process is quick, straightforward, and completely free. All that's required is a valid email address and phone number.<br /><br />Depending on your location, payment method, and the amount of cryptocurrency you're looking to purchase, you might be asked to complete a brief KYC (Know Your Customer) process.<br /><br />Our support team is available to assist you, ensuring the process is typically completed within five minutes."
+				},
+				{
+					"title": "Enter Your Desired Amount in Cryptocurrency or Local Currency",
+					"text": "Decide how much cryptocurrency you want to purchase.<br /><br />You can either specify the amount in cryptocurrency or the amount of local currency you wish to spend, and the equivalent cryptocurrency amount will be calculated instantly. We currently support 46 fiat currencies and are planning to add more.<br /><br />The total cost includes all network and service fees, with no hidden charges. The price you see is the price you pay."
+				},
+				{
+					"title": "Select Your Preferred Wallet",
+					"text": "Choose a wallet that can receive your cryptocurrency.<br /><br />You might opt for a non-custodial crypto wallet to store your assets. Be sure to understand key concepts such as public addresses, seed phrases, and best practices for wallet security."
+				},
+				{
+					"title": "Finalize Your Purchase and Receive Crypto Instantly!",
+					"text": "Enter your credit or debit card information or choose a bank transfer to complete your cryptocurrency purchase."
+				}
+			]
+		},
+		"frequentQuestions": {
+			"title": "FAQ",
+			"items": [
+				{
+					"title": "What is the best time to buy Bitcoin?",
+					"text": "If you're looking to buy Bitcoin as an investment, it's important to do your own research and consider your own financial goals and risk tolerance. It’s quite customary to invest in Bitcoin for the long term and not to try to time the market.<br /><br /> Dollar-cost averaging is a popular strategy that involves investing a fixed amount of money in Bitcoin at regular intervals, regardless of the market price. This can help to reduce the impact of price volatility."
+				},
+				{
+					"title": "What can you buy with Bitcoin?",
+					"text": "Some countries, like El Salvador, have declared BTC to be a legal tender. So, you will be able to buy anything in these countries with Bitcoin.<br /><br /> Most countries currently do not accept Bitcoin as a legal tender. Hence, you cannot directly purchase goods and services with BTC in these countries.<br /><br /> You can convert BTC back to USD, EUR, or other fiat currency and use those funds for your purchases. Some platforms offer coupons in exchange for Bitcoin, which you can then use to exchange for goods and services."
+				},
+				{
+					"title": "Where to buy Bitcoin with credit card?",
+					"text": "If you are wondering where to buy Bitcoin with credit card instantly, Cvetpay is the answer.<br /><br /> Cvetpay is the safest place for getting Bitcoin with credit card because of its unmatched simplicity, intuitive UX, low commissions, and user-focused features like Cvetpay wallet.<br /><br /> Cvetpay gives you a way to not only buy Bitcoin, but also sell it when the price is favorable to you. Everything you need is under one roof."
+				},
+				{
+					"title": "How long does it take to buy Bitcoin?",
+					"text": "You can buy Bitcoin within 2 minutes if you have already completed the verification process. Depending on the network capacity, BTC might take a few minutes longer to arrive in your wallet.<br /><br /> If you have not completed the verification or signup process, it might take between 5–10 minutes to buy Bitcoin for first-time users."
+				},
+				{
+					"title": "Is it safe to buy Bitcoin with Cvetpay?",
+					"text": "Yes, buying Bitcoin with Cvetpay is 100% safe, as we follow all the latest security protocols and take all necessary measures to secure user data. All transactions are encrypted, and confidential information is strictly guarded.<br /><br /> You don't need to worry about hidden charges or fees. Cvetpay maintains complete transparency with customers to ensure it is the safest place to buy Bitcoin."
+				},
+				{
+					"title": "Can you buy Bitcoin with credit card no verification?",
+					"text": "It is not possible to buy Bitcoin anonymously as easy as it is to buy Bitcoin with credit card instantly. This is because Cvetpay needs to comply with international Anti-Money Laundering (AML) regulations and other laws.<br /><br /> Depending on your payment method, location, and the amount of Bitcoin you are buying, you might be able to skip the verification. However, this does not constitute complete anonymity, as your identity is linked to your bank account."
+				},
+				{
+					"title": "Should I buy Bitcoin now to get rich?",
+					"text": "The cryptocurrency market can be highly unpredictable and volatile. You should only invest in or purchase Bitcoin as per your risk appetite.<br /><br /> To figure out how much you need to invest, when to invest, and what strategies to apply to make a profit with Bitcoin, we suggest you consult a financial advisor. Cvetpay is a platform to buy and sell cryptocurrency but does not provide any investment advice.<br /><br /> You should also do research before investing in any cryptocurrency and consider your own financial goals. Investing in Bitcoin is not a quick-rich scheme, but with the right strategy and plan, it can be a great way to make money."
+				},
+				{
+					"title": "What is the cheapest way to purchase Bitcoin?",
+					"text": "The cheapest way how to purchase Bitcoins is through Cvetpay. We offer you the lowest commissions for buying BTC with bank transfer, credit card, debit card and other payment methods."
+				}
+			]
+		},
+		"footer": {
+			"company": {
+				"title": "Company",
+				"items": [
+					{
+						"text": "FAQ",
+						"href": "/faq"
+					},
+					{
+						"text": "Contacts",
+						"href": "/contacts"
+					},
+					{
+						"text": "Policies",
+						"href": "/policies/terms-of-use"
+					},
+					{
+						"text": "About Us",
+						"href": "/about-us"
+					}
+				]
+			},
+			"buy": {
+				"title": "Buy",
+				"items": [
+					[
+						{
+							"text": "Buy Bitcoin Cash",
+							"href": "/buy?to=BCH"
+						},
+						{
+							"text": "Buy Dogecoin",
+							"href": "/buy?to=DOGE"
+						},
+						{
+							"text": "Buy Bitcoin",
+							"href": "/buy?to=BTC"
+						},
+						{
+							"text": "Buy USDT",
+							"href": "/buy?to=USDT+ERC-20"
+						}
+					],
+					[
+						{
+							"text": "Buy Stellar",
+							"href": "/buy?to=XLM"
+						},
+						{
+							"text": "Buy Ethereum",
+							"href": "/buy?to=ETH"
+						},
+						{
+							"text": "Buy Litecoin",
+							"href": "/buy?to=LTC"
+						},
+						{
+							"text": "Buy Ripple",
+							"href": "/buy?to=XRP"
+						}
+					]
+				]
+			},
+			"sell": {
+				"title": "Sell",
+				"items": [
+					[
+						{
+							"text": "Sell Bitcoin",
+							"href": "/sell?from=BTC"
+						},
+						{
+							"text": "Sell Stellar",
+							"href": "/sell?from=XLM"
+						},
+						{
+							"text": "Sell Bitcoin Cash",
+							"href": "/sell?from=BCH"
+						},
+						{
+							"text": "Sell Dogecoin",
+							"href": "/sell?from=DOGE"
+						}
+					],
+					[
+						{
+							"text": "Sell Ripple",
+							"href": "/sell?from=XRP"
+						},
+						{
+							"text": "Sell Litecoin",
+							"href": "/sell?from=LTC"
+						},
+						{
+							"text": "Sell Ethereum",
+							"href": "/sell?from=ETH"
+						},
+						{
+							"text": "Sell USDT",
+							"href": "/sell?from=USDT+ERC-20"
+						}
+					]
+				]
+			},
+			"contacts": "Contacts",
+			"companyName": "Cvetpay Sp. z o.o. (0001072434) ALEJA JANA PAWŁA II, nr 43A, lok. 37B, Warsaw, kod 01-001",
+			"copyright": "© 2023-{currentYear} Cvetpay.com, all rights reserved.",
+			"risk": "Investing in cryptoassets involves significant risk. You should not invest more than you can afford to lose, and you should ensure that you fully understand the risks involved. We are not regulated by the Financial Conduct Authority and investments in cryptoassets are not covered by the Financial Ombudsman Service or subject to protection under the Financial Services Compensation Scheme."
+		},
+		"cookieBanner": {
+			"title": "🍪 We're using cookies",
+			"text": "They are necessary to ensure the website works properly and can provide to you our services. By clicking the button, you agree to our ",
+			"link": "cookie policy",
+			"button": "Accept cookies"
+		}
+	}
+}

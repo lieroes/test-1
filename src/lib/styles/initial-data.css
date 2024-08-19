@@ -1,0 +1,1354 @@
+.exchange-form-wallet {
+	text-align: right;
+	font-size: 11px;
+	color: #0006;
+}
+
+.exchange-form-wallet {
+	text-align: left;
+}
+
+.commission,
+.commission {
+	display: grid;
+	grid-gap: 4px;
+	text-align: center;
+	color: #bfbfbf;
+}
+
+.commission-details {
+	display: grid;
+	grid-gap: 16px;
+}
+
+.commission-details__title {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 18px;
+	text-align: center;
+}
+
+.commission-details__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	row-gap: 8px;
+	column-gap: 72px;
+}
+
+@media screen and (max-width: 1000px) {
+	.commission-details__list {
+		column-gap: 32px;
+	}
+}
+
+.comment-details {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.exchange-form-action {
+	min-width: 192px;
+	max-width: 280px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 64px;
+	color: #fff;
+	background-color: #000;
+	transition: background-color 0.2s linear, color 0.2s linear;
+	border-radius: 6px;
+	font-size: 24px;
+	padding: 0 30px;
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-weight: 500;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+	.exchange-form-action {
+		width: 100%;
+	}
+}
+
+.exchange-form-action:disabled {
+	background-color: #0000001a;
+	color: #fff;
+	pointer-events: none;
+}
+
+.exchange-form-action--loading {
+	position: relative;
+	background-color: #a4a7e3;
+	color: transparent;
+	pointer-events: none;
+}
+
+.exchange-form-action--loading:after {
+	content: '';
+	position: absolute;
+	top: calc(50% - 12px);
+	left: calc(50% - 12px);
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARjSURBVHgB7VnJihNRFD1JnOd5AIcGxQEVnBDEaeVCQUQQRRHEnT+gIILiUhFc+AmCC1Fw7c4RdaEiiAiiOE/ddkN3a9NTeW7Xu9arV69SqSQdI/SBw61UVd47576hKjfACEZQEwqoI4IgmMwwn1xByvFUc6mb/ER2FgqFR6gjajZA0ZMYdpM7yJXkFLJEFg3tY+Vj8gb5kIY+oAZUbYDC1zIcI9dniC1Z533Xr5MXqzWS2wCFT2Q4Su53RBY8QktIjoZ7r/IaeYFG3iMHchmg+DUMJ8h5KaJ9Yu3jciMh52QU9uQxUaz0Rorfy3CenKOnrKgctI71mpukghWLTmwhTyEHRlVyE8UfYjjsEatC9LMI6SSfkt/ILnN9GrnKcLo5p0aK1mfhDuRApgGKP8hwAPHsCkuWcNkmb5H3OPxPMtrbbNo7hGgGFC0jd5EDhYzOJGPnnA7cuXuTvELhXcgBtr2Q4SR5xGpL1sAutvWu0nYKZTqYzXCWnItoeEuWiVbyEjt7jhrAfhYhNNFBXmV7HXm+X87AcYTz0Z6jmikRf5qdfcc/hncNUPwshm2IL1Q1+4M80wziBWmLeB85gPiWp8eXm0W8IGHAZH8LwuzrFqnT5zbFv0ATwTcCyxFl36YYuY4mg8+A7NOafSAy8IDZb0WTwWdgKaIHlD0CuR4wjULMAOf/MoTiBxDNfWEPs/8KTQh3BMYhFC/QeS+o+MnYaLgGZiC+fcIc/zcGZATsBaz4hQaD0zn1LYHTWWdGwoD9mmzDd264oc8eF/pWPATXgGRap1BgnR+LxsM2oHoSP5B8BgKHgmloPEYjEis6ioh2yL9wDXx2blATi9B4jPLoSKwLd461k78RmlDKnBvDRdWCBoF9iXhfUaDIBRxbjzEDvNjD8BHRYhaqkWVoHGQ39JVoAvdG3yp/iXj21cRqZmbYFzP7EKET4C/B9Ln3+ww8Q1y4Ho8ht2L4ITVVu45k/xLsd29OGDDT6C2SJiSuNT/GhwVmhNWAWxzrdec/kF7YuoPIgDsSO00Vut7iZeHOhb/OKsfdvu95DZjS3mMkR0CizM999TTBtmTPX4Bw71fh9tSRt+EBVGrA4D7CUoddMtQoBd497Hg+ahcvbS1G+LR3a05iQoR3pn0/q7AlWdmP+LbqUn4nPKuisCWZliLxTESja/8W0fa/mnWZ34DpaB3C3ccWHSA5tV6Tb7IqFmxP/rWRV5MZiDLsa1tiG9trL9depgHT6SaGDUiOhPusEEq22g17zTXJtmzDU0yTvrVlG5D4g+J/ZmmryIAxsdGYGPCYCJB8/ajks68NiV+yMp/bgDEhi3Y7wp0o8IgYhP8p3o/kSPmSMPQqQ/HdqBC5DBgT8qee/D+2pIyBtHM+8ZoI+T/ha9p2WTcDjhH5y6kF/jWRNhruLtYm4im8E1WgagMKs49LKV728plIX+Aa5YVMxEqRTBZqP2pAzQZcmNqqvBaMR/QK3IdIeE+tokcwgjriD2/74mqBH4MoAAAAAElFTkSuQmCC);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	animation: spin 2s linear infinite;
+}
+
+.exchange-form-action--small {
+	font-size: 16px;
+	height: 48px;
+	min-width: 152px;
+}
+
+@media (hover: hover) {
+	.exchange-form-action:hover {
+		background-color: #00b57b;
+		color: #fff;
+	}
+
+	.exchange-form-action:active {
+		background-color: #00c587;
+		color: #fff;
+	}
+}
+
+.crypto-currency {
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	font-size: 18px;
+	line-height: 24px;
+	border-radius: 4px;
+	white-space: nowrap;
+}
+
+.crypto-currency:hover {
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+
+.crypto-currency--selected {
+	background-color: #f3f1e8;
+}
+
+.crypto-currency__item {
+	padding: 0 12px;
+}
+
+.crypto-currency__item:first-child {
+	padding: 0;
+}
+
+.crypto-currency__item:last-child {
+	padding: 0;
+}
+
+.crypto-currency__icon {
+	width: 16px;
+	height: 16px;
+	position: relative;
+}
+
+.crypto-currency__icon:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	display: block;
+	background: #f5f5f5;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	z-index: 0;
+}
+
+.crypto-currency__icon img {
+	vertical-align: text-top;
+	position: relative;
+	z-index: 1;
+}
+
+.crypto-currency__label {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+}
+
+.crypto-currency__currency {
+	color: #b3b3b3;
+}
+
+.exchange-flow {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	color: #00000080;
+	border-radius: 4px;
+}
+
+.exchange-flow--active {
+	color: #fff;
+	background-color: #000;
+}
+
+.exchange-flow-select {
+	display: flex;
+	gap: 4px;
+	white-space: nowrap;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+	.exchange-flow-select {
+		gap: 4px 24px;
+	}
+}
+
+.exchange-loading {
+	position: relative;
+	width: 52px;
+	height: 52px;
+	pointer-events: none;
+}
+
+.exchange-loading:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -16px;
+	margin-top: -16px;
+	width: 32px;
+	height: 32px;
+	background-image: url(data:image/png;base64,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);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	animation: spin-1319168a 2s linear infinite;
+}
+
+.exchange-loading--white:after {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUESURBVHgB7ZnLixxVGMVPTWucjEkMRh00McaFGh+gKAi+SMCNguALER8gbv0L3LjShYi4UHAtYhR158aNutGgIvgAwSxE8ZE40SjGmTjxUd05h7p36tatr7qreqq7KzAHDrd6pvve+tV373cfBWxoQ1NVgglqMBhsZSHvdG0dppeTJPkLE1KrQAS4nsU++gp6L30OPWf4BH2I/oZ+j4AfoyWtG4gQW1g8QD9Ib6N7rl5/8z3jOon+foQW1AuE+wnr0NhADuR+ZDDbYEciBgo/e/D4/2/SzxPsR4yhsYAIcy+Lx5CNjzogvRowYWQ11p4j1OtoqDOafJkgZ7N4lL7PNT4wvPb16LNXEpShw7/tpl9me2RKDqCB5up+kZUvsniWvhs2SB9FiBguVhXYXHD9CBqqVoQIcwGLZ+hFd+NwDfejm/JSWv6S/pb+hV6hl+ld9MX0VfQt9Pbg93MRlHwJ2gZy3exJ+jwUo+EBws+f06+wm3xRUd1nUd03IcuOD7k/eRAP9hEaamRSYKOPs7gLxacYNqzB/DX9KkG+whhiG4raO/Qe5IlCWe5O1vkDGigZ0dB+Fk+g3L/DbPYGG30NLYjtPcziWmQwB1jvn2ioZEjl57N4Ctm4kTxAeP0iG30fHdKwMaTUvAP5wJc0XvxDeIkwH6BjMoEYHSWAW5EBpCin2Le7CCNVRegeFNOzn0cEc4wwb6GjqgK6HDmQSg8loKfRYZWA2N209D8XeVeT/TxzkNH5DR2WFaHrYK8AFKUP0XFZQNpd+oiEY+cEo3MIHZcFdBHy5Yzk12ydh5EKQBw/m1nMIx8/4ep5rA3XtBVHSEDhRBp2u2PoiNw+ydqSlIDC7DZAEeh3zEgCQPGe9DcVAgsDYI6hfkW985itzM3oIAvXWrRiIEXB2kpLswQKF8ax0vBDDHQS+VYaUbkds5M/RAHs7fyaCkAM3SojqEPA+eDHvoJFzE495ximHycHK4w6Qkqd+866bry/b1GbkEOFu+WSLCCdYvqJ1VufNzF6ezBlsc0zkfUk64yv1P0sIJ03++iEpXwbpi/NjdbhpSL0f/zlEhD75PcsVlHsbt67+MR2Y0piW4rMAvLu5uejnrvX0UBOn6DY5ULfjOlJO+d47FRGB6gG+hTFKIXe6c7TJiq2oWlC4yc8cQrhVq3fmUAMpeYjQfmEEEPdyAavxITkXpRpGVYVnZO8x9T67bCzbZ1y6inE6dtf386G96JlsU69JLsQ1QebesArVb+vBOIT+IfFQZTTdwi3jzdwA1qSOwv0ry/jF2f+erkqOkC9o+D9yLflfuWQIofTtQ7n32VDKxhDrotpJeK3L32jHZXH2cYfw+qqA3QWsjd1O1A9pjyY3jZ8x0aPooZYt978KSILRl3hw5PU/Y/E24XGQEHDei+0BcUnlkbX/rO6q6D0NP92VhfSvKJljN5obEV+ohSPzzhC/9I/E+a/UfdaC8hB6QbuQJZ9+kNctcro1yitsaqHcbgOTCMgB6WnqyRwdQXIwLi5cKVhRSOF/WBUl7b9R0d1s7GBArDLkCWKBZS7SJ2bTlENIisaSwRpfI4xFpCD0njSu5xLK4DCzxaQFWEtZ5boX4el5okAeTmwa2jNIZtRvmGrG8ZdVBHRu9gla8HZROsGCuUmRh1UKisqiSizWV1KWUtzl+Ytvc04jpbUKlAstzmT/ZZeGSutm7E2tKHTQKcAjI4r7ugelZgAAAAASUVORK5CYII=);
+}
+
+@keyframes spin-1319168a {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.filter-input {
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	padding: 16px 14px;
+	width: 100%;
+	height: 29px;
+}
+
+@media screen and (min-width: 768px) {
+	.filter-input {
+		height: 48px;
+	}
+}
+
+.scroll-wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.scroll-block {
+	overflow: auto;
+	max-height: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+
+.scroll-block:before,
+.scroll-block:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 32px;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.25s ease;
+	z-index: 10;
+}
+
+@media screen and (max-width: 1000px) {
+	.scroll-block:before,
+	.scroll-block:after {
+		height: 26px;
+	}
+}
+
+.scroll-block:before {
+	top: 0;
+	background: linear-gradient(180deg, #ffffff 30%, rgba(255, 255, 255, 0) 100%);
+}
+
+.scroll-block:after {
+	bottom: 0;
+	background: linear-gradient(0deg, #ffffff 30%, rgba(255, 255, 255, 0) 100%);
+}
+
+.scroll-block--top:before {
+	opacity: 1;
+}
+
+.scroll-block--bottom:after {
+	opacity: 1;
+}
+
+.crypto-currency-select {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.crypto-currency-select__header {
+	display: grid;
+	grid-gap: 16px 4px;
+	justify-content: stretch;
+	align-items: center;
+	grid-template-areas: 'flow' 'search' 'sub-heading';
+	padding: 16px 16px 6px;
+}
+
+@media screen and (max-width: 1000px) {
+	.crypto-currency-select__header {
+		padding: 20px 24px 8px;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	.crypto-currency-select__header {
+		grid-template-areas: '. flow close' 'search search search' 'sub-heading sub-heading sub-heading';
+		grid-template-columns: max-content 1fr max-content;
+	}
+}
+
+.crypto-currency-select__flow {
+	grid-area: flow;
+}
+
+@media screen and (max-width: 999px) {
+	.crypto-currency-select__flow {
+		place-self: center;
+	}
+}
+
+.crypto-currency-select__search {
+	grid-area: search;
+}
+
+.crypto-currency-select__sub-heading {
+	grid-area: sub-heading;
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 14px;
+	color: #00000080;
+}
+
+.crypto-currency-select__close {
+	grid-area: close;
+	justify-self: end;
+	display: none;
+	align-self: start;
+	margin-top: 4px;
+	width: 24px;
+	height: 24px;
+}
+
+.crypto-currency-select__close svg {
+	width: 24px;
+	height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+	.crypto-currency-select__close {
+		display: block;
+	}
+}
+
+.crypto-currency-select__list {
+	margin: 0 8px;
+	padding-bottom: 8px;
+}
+
+.crypto-currency-select__loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.exchange-wallet-guest-layout {
+	min-height: 305px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 24px 48px;
+	text-align: center;
+}
+
+.exchange-wallet-guest-layout__guests-heading {
+	color: #000;
+	font-size: 20px;
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-weight: 600;
+	margin: 16px 0;
+}
+
+.exchange-wallet-guest-layout__guests-heading-btns {
+	display: flex;
+	gap: 12px;
+	justify-content: center;
+}
+
+.exchange-wallet-guest-layout__crypto-icons-row {
+	display: flex;
+}
+
+.exchange-wallet-guest-layout__crypto-icons-row > .sprite-icon {
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	width: 34px;
+	height: 34px;
+}
+
+.exchange-wallet-guest-layout__crypto-icons-row > .sprite-icon:not(:first-child) {
+	margin-left: -12px;
+}
+
+.exchange-wallet-guest-layout__crypto-icons-row > .sprite-icon:nth-child(1) {
+	z-index: 10;
+}
+
+.exchange-wallet-guest-layout__crypto-icons-row > .sprite-icon:nth-child(2) {
+	z-index: 8;
+}
+
+.exchange-wallet-guest-layout__crypto-icons-row > .sprite-icon:nth-child(3) {
+	z-index: 6;
+}
+
+.exchange-wallet-guest-layout__crypto-icons-row > .sprite-icon:nth-child(4) {
+	z-index: 4;
+}
+
+.crypto-source-select {
+	display: flex;
+	gap: 8px;
+	white-space: nowrap;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: #f5f5f5;
+	border-radius: 6px;
+	padding: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+	.crypto-source-select {
+		flex-wrap: wrap;
+		gap: 4px 24px;
+	}
+}
+
+.crypto-source-select__item {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #b3b3b3;
+	padding: 4px 10px;
+	border-radius: 4px;
+}
+
+.crypto-source-select__item--active {
+	background-color: #fff;
+	color: #000;
+}
+
+.crypto-source-select__item--disabled {
+	color: #b3b3b3;
+	cursor: auto;
+}
+
+.wallet {
+	display: flex;
+	gap: 10px;
+	padding: 12px 8px 12px 16px;
+	border-radius: 4px;
+}
+
+.wallet:hover {
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+
+.wallet--active {
+	background-color: #f3f1e8;
+}
+
+.wallet__icon {
+	width: 24px;
+	height: 24px;
+}
+
+.wallet__content {
+	width: 100%;
+}
+
+.wallet__header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 4px 8px;
+}
+
+.wallet__body {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	justify-content: space-between;
+	margin: 4px 0;
+}
+
+.wallet__title {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.wallet__currency {
+	color: #b2b2b2;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.wallet__info {
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 6px;
+}
+
+.wallet__address {
+	color: #b2b2b2;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.wallet__crypto-amount,
+.wallet__amount {
+	white-space: nowrap;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.wallet__amount {
+	text-align: right;
+}
+
+.crypto-currency-wallets-select {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.crypto-currency-wallets-select__header {
+	display: grid;
+	grid-gap: 0px 4px;
+	justify-content: stretch;
+	align-items: center;
+	grid-template-areas: 'flow' 'search';
+	padding: 16px 16px 6px;
+}
+
+@media screen and (max-width: 1000px) {
+	.crypto-currency-wallets-select__header {
+		padding: 20px 24px 8px;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	.crypto-currency-wallets-select__header {
+		grid-template-areas: '. flow close' 'search search';
+		grid-template-columns: max-content 1fr;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.crypto-currency-wallets-select__header {
+		grid-template-areas: 'flow close' 'search search';
+		grid-template-columns: unset;
+	}
+}
+
+.crypto-currency-wallets-select__flow {
+	grid-area: flow;
+}
+
+@media screen and (max-width: 999px) {
+	.crypto-currency-wallets-select__flow {
+		place-self: center;
+	}
+}
+
+.crypto-currency-wallets-select__source {
+	padding-top: 6px;
+	padding-bottom: 4px;
+}
+
+.crypto-currency-wallets-select__sub-header {
+	padding: 6px 16px;
+}
+
+@media screen and (max-width: 1000px) {
+	.crypto-currency-wallets-select__sub-header {
+		padding: 8px 24px;
+	}
+}
+
+.crypto-currency-wallets-select__search {
+	grid-area: search;
+}
+
+.crypto-currency-wallets-select__sub-heading {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 14px;
+	color: #00000080;
+	margin: 16px 0 8px;
+}
+
+.crypto-currency-wallets-select__close {
+	grid-area: close;
+	justify-self: end;
+	display: none;
+	align-self: start;
+	margin-top: 4px;
+	width: 24px;
+	height: 24px;
+}
+
+.crypto-currency-wallets-select__close svg {
+	width: 24px;
+	height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+	.crypto-currency-wallets-select__close {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.crypto-currency-wallets-select__close {
+		place-self: center;
+	}
+}
+
+.crypto-currency-wallets-select__list {
+	display: grid;
+	grid-gap: 2px;
+	margin: 0 8px;
+	padding-bottom: 8px;
+}
+
+.crypto-currency-wallets-select__loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.crypto-currency-item-override {
+	padding: 8px 5px;
+}
+
+.currency-select-button {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.currency-select-button__icon {
+	margin: 0 12px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	border-radius: 50%;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+
+.currency-select-button__arrow {
+	margin: 0 8px;
+}
+
+.currency-select-button__arrow svg {
+	display: block;
+	width: 24px;
+}
+
+.currency-select-button__arrow svg {
+	transform: rotate(180deg);
+}
+
+.flag-icon {
+	width: 20px;
+	height: 20px;
+	display: block;
+	border-radius: 50%;
+}
+
+.fiat-currency {
+	padding: 12px 8px;
+	display: flex;
+	align-items: center;
+	border-radius: 4px;
+}
+
+.fiat-currency:hover {
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+
+.fiat-currency--selected {
+	background-color: #f3f1e8;
+}
+
+.fiat-currency__currency {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	width: 34px;
+}
+
+.fiat-currency__label {
+	padding: 0 22px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.payment-method-label {
+	height: 17px;
+	font-size: 11px;
+	line-height: 14px;
+	background-color: var(--3f243e04);
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 6px;
+}
+
+.payment-method {
+	display: flex;
+	gap: 16px;
+	padding: 6px 8px 8px;
+	border-radius: 4px;
+}
+
+.payment-method:hover {
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+
+.payment-method--active {
+	background-color: #f3f1e8;
+}
+
+.payment-method__icon {
+	padding: 12px;
+	background-color: #f5f5f5;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+.payment-method__icon img {
+	vertical-align: text-top;
+}
+
+.payment-method__header {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 4px 8px;
+	margin-bottom: 4px;
+}
+
+.payment-method__title {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.payment-method__labels {
+	display: flex;
+	gap: 4px;
+	flex-wrap: wrap;
+}
+
+.payment-method__info {
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 6px;
+}
+
+.payment-method__description {
+	color: #b2b2b2;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+.payment-method-icon {
+	width: 16px;
+	height: 16px;
+}
+
+.payment-select {
+	display: grid;
+	grid-template-rows: max-content 1fr;
+	height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.payment-select {
+		min-width: 468px;
+	}
+}
+
+.payment-select__header {
+	display: grid;
+	grid-gap: 16px 4px;
+	justify-content: space-between;
+	align-items: center;
+	grid-template-areas: 'flow currency-select' 'search search' 'sub-heading sub-heading';
+	padding: 16px 16px 6px;
+}
+
+@media screen and (max-width: 1000px) {
+	.payment-select__header {
+		padding: 20px 24px 8px;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	.payment-select__header {
+		grid-template-areas: '. flow close' 'currency-select currency-select currency-select' 'search search search' 'sub-heading sub-heading sub-heading';
+		grid-template-columns: max-content 1fr max-content;
+	}
+}
+
+.payment-select__empty-list {
+	padding: 8px;
+}
+
+.payment-select__list {
+	display: grid;
+	align-content: start;
+	grid-gap: 2px;
+}
+
+@media screen and (max-width: 1000px) {
+	.payment-select__list {
+		margin: 8px 16px 0;
+	}
+}
+
+.payment-select__loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.payment-select__flow {
+	grid-area: flow;
+}
+
+@media screen and (max-width: 999px) {
+	.payment-select__flow {
+		place-self: center;
+	}
+}
+
+.payment-select__currency-select {
+	grid-area: currency-select;
+}
+
+.payment-select__search {
+	grid-area: search;
+}
+
+.payment-select__sub-heading {
+	grid-area: sub-heading;
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 14px;
+	color: #00000080;
+}
+
+.payment-select__close {
+	grid-area: close;
+	display: none;
+	padding-top: 4px;
+	width: 24px;
+	height: 24px;
+}
+
+.payment-select__close svg {
+	width: 24px;
+	height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+	.payment-select__close {
+		display: block;
+	}
+}
+
+.currency-select {
+	display: grid;
+	grid-template-rows: max-content 1fr;
+	height: 100%;
+}
+
+.currency-select__header {
+	display: grid;
+	grid-template-columns: 1fr max-content 1fr;
+	align-items: center;
+	grid-template-areas: 'back title .' 'search search search';
+	grid-row-gap: 12px;
+	padding: 20px 16px 4px;
+}
+
+@media screen and (max-width: 1000px) {
+	.currency-select__header {
+		grid-row-gap: 16px;
+		padding: 24px 24px 4px;
+	}
+}
+
+.currency-select__back {
+	grid-area: back;
+}
+
+.currency-select__back svg {
+	display: block;
+	cursor: pointer;
+	width: 24px;
+}
+
+.currency-select__title {
+	grid-area: title;
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+}
+
+.currency-select__search {
+	grid-area: search;
+}
+
+.currency-select__list {
+	display: grid;
+	align-content: start;
+	grid-gap: 2px;
+	margin: 0 8px;
+	padding-bottom: 8px;
+}
+
+.currency-select__loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.exchange-footer-loader {
+	font-size: 18px;
+	line-height: 1.33;
+}
+
+.exchange-footer-loader__subscript-first,
+.exchange-footer-loader__subscript-second {
+	display: block;
+	height: 20px;
+}
+
+.exchange-footer-loader__subscript-first {
+	width: 226px;
+	margin: 0 auto;
+}
+
+.exchange-footer-loader__subscript-second {
+	width: 282px;
+	margin: 4px auto 0;
+}
+
+.exchange-form-item {
+	position: relative;
+	height: 64px;
+	border: 1px solid #8E24AA;
+	border-radius: 6px;
+	padding: 5px;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr max-content;
+	grid-template-rows: 100%;
+	box-shadow: inset 0 0 0 1px #000;
+	transition: border-color 0.2s linear, border-width 0.2s linear, box-shadow 0.2s linear;
+}
+
+.exchange-form-item--error {
+	border-color: #e73c40;
+	box-shadow: inset 0 0 0 1px #e73c40;
+}
+
+.exchange-form-item:focus-within {
+	border-color: #a4a7e3;
+	border-width: 1px;
+	box-shadow: 0 3px 6px #00000026;
+}
+
+.exchange-form-item-error {
+	color: #e73c40;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.form-layout {
+	display: grid;
+	align-items: baseline;
+	justify-items: flex-start;
+	grid-gap: 4px 20px;
+	grid-template-areas: 'label-from payment-icons-from label-to label-to .' 'item-from item-from item-to item-to action' 'error-from error-from error-to error-to .' 'description-from description-from description-to description-to .';
+	grid-template-columns: 1fr 1fr 1fr 1fr max-content;
+}
+
+.form-layout__label-from {
+	line-height: 20px;
+	grid-area: label-from;
+}
+
+.form-layout__payment-icons-from {
+	grid-area: payment-icons-from;
+	justify-self: flex-end;
+	padding-bottom: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+	.form-layout__payment-icons-from {
+		padding-bottom: 0;
+	}
+}
+
+.form-layout__item-from {
+	grid-area: item-from;
+	width: 100%;
+}
+
+.form-layout__error-from {
+	grid-area: error-from;
+}
+
+.form-layout__error-to {
+	grid-area: error-to;
+}
+
+.form-layout__description-from {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 16px;
+	grid-area: description-from;
+}
+
+.form-layout__label-to {
+	grid-area: label-to;
+}
+
+.form-layout__item-to {
+	grid-area: item-to;
+	width: 100%;
+}
+
+.form-layout__description-to {
+	max-width: 100%;
+	padding-bottom: 16px;
+	grid-area: description-to;
+}
+
+.form-layout__action {
+	grid-area: action;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+	.form-layout__action {
+		margin-top: 18px;
+	}
+}
+
+.form-layout--compact {
+	grid-template-areas: 'label-from payment-icons-from' 'item-from item-from' 'error-from error-from' 'description-from description-from' 'label-to label-to' 'item-to item-to' 'error-to error-to' 'description-to description-to' 'action action';
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 1000px) {
+	.form-layout {
+		grid-template-areas: 'label-from payment-icons-from' 'item-from item-from' 'error-from error-from' 'description-from description-from' 'label-to label-to' 'item-to item-to' 'error-to error-to' 'description-to description-to' 'action action';
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.form-layout--compact .form-layout__description-from,
+.form-layout--compact .form-layout__description-to {
+	padding-top: 0;
+}
+
+.form-layout--compact .form-layout__action {
+	margin-top: 18px;
+}
+
+.promo-component {
+	display: flex;
+	box-shadow: inset 0 0 0 1px #0000001a;
+	border-radius: 6px;
+}
+
+.promo-component {
+	flex-flow: row-reverse;
+}
+
+.promo-component__input {
+	width: 75px;
+	height: 28px;
+	margin-left: 5px;
+	margin-right: 15px;
+	font-family: Graphik, sans-serif;
+	font-size: 14px;
+}
+
+.promo-component__arrow-wrapper {
+	position: relative;
+}
+
+.promo-component__arrow {
+	position: absolute;
+	top: 0;
+	right: -1px;
+	color: #5f70db;
+	fill: currentColor;
+}
+
+.promo-component__capture {
+	display: flex;
+	height: 28px;
+	padding-right: 5px;
+	padding-left: 1px;
+	align-items: center;
+	font-family: Graphik, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	white-space: nowrap;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	background-color: #5f70db;
+}
+
+.promo-component--error .promo-component__arrow {
+	color: #e73c40;
+	fill: currentColor;
+}
+
+.promo-component--error .promo-component__capture {
+	background-color: #e73c40;
+}
+
+.exchange-input-amount {
+	display: grid;
+	grid-gap: 4px;
+	grid-template-columns: 1fr max-content;
+	align-items: center;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	transition: border-color 0.2s linear;
+}
+
+.exchange-input-amount:focus-within {
+	border-color: #0000001a;
+	padding: 0.125rem 0.25rem;
+}
+
+.exchange-input-amount__input {
+	min-width: 1ch;
+	max-width: 10ch;
+	padding: 2px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 0;
+	box-shadow: none;
+	transition: border-color 0.2s linear, min-width 0.5s linear;
+	outline: none;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.exchange-input-amount:focus-within .exchange-input-amount__input {
+	border-color: transparent;
+}
+
+.exchange-input-amount__currency {
+	color: #000;
+	margin-left: 4px;
+	transition: color 0.2s linear;
+}
+
+.exchange-input-amount:focus-within .exchange-input-amount__currency {
+	color: #bfbfbf;
+}
+
+.exchange-money-service {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	color: #fff;
+	background-color: #000;
+	border-radius: 4px;
+	height: 100%;
+	padding: 9px 8px 9px 12px;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	cursor: pointer;
+	user-select: none;
+}
+
+@media (hover: hover) {
+	.exchange-money-service:hover {
+		background-color: #00b57b;
+		border-color: #00b57b;
+		color: #fff;
+	}
+
+	.exchange-money-service:active {
+		background-color: #00c586;
+		border-color: #00c586;
+		color: #fff;
+	}
+}
+
+.exchange-money-service {
+	padding-left: 8px;
+	padding-right: 12px;
+	text-align: right;
+}
+
+.exchange-money-service__body {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.exchange-money-service__currency {
+	font-size: 22px;
+	line-height: 20px;
+}
+
+.exchange-money-service__service {
+	font-size: 12px;
+	line-height: 12px;
+	white-space: nowrap;
+}
+
+.exchange-money-service__icon {
+	width: 14px;
+	height: 14px;
+	fill: currentColor;
+	transition: transform 0.2s linear;
+}
+
+.exchange-money-service__icon svg {
+	fill: currentColor;
+}
+
+.exchange-money-service--toggled .exchange-money-service__icon {
+	transform: scaleY(-1);
+}
+
+.exchange-money-service {
+	font-family: Graphik-Semibold, Arial Bold, Arial, sans-serif;
+	background-color: #000;
+	border-radius: 4px;
+	height: 100%;
+	padding: 9px 8px 9px 12px;
+	display: flex;
+	align-items: center;
+}
+
+.payment-system-icons {
+	display: flex;
+	grid-gap: 9px;
+}
+
+.popup-wrapper {
+	position: relative;
+}
+
+
+
+.popup {
+	border: 1px solid #000000;
+	border-radius: 10px;
+	background-color: #fff;
+	position: absolute;
+	top: calc(100% + 2px);
+	left: 0;
+	z-index: 10;
+	height: 440px;
+	min-width: 100%;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 999px) {
+	.popup {
+		position: fixed;
+		inset: auto 0 0;
+		z-index: 101;
+		height: calc(100vh - 200px);
+		transform: translateY(100vh);
+		border-color: #fff;
+		border-radius: 10px 10px 0 0;
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		transition: opacity 0.2s linear, transform 0.2s linear, visibility 0s linear 0.2s;
+	}
+
+	.is-open .popup + .popup,
+	.is-open .popup {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+		transition: opacity 0.2s linear, transform 0.2s linear, visibility 0s linear 0s;
+	}
+}
+
+@media screen and (max-height: 500px) {
+	.popup {
+		height: calc(100vh - 32px);
+	}
+}

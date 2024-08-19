@@ -1,0 +1,117 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id    String  @id @default(uuid())
+  email String? @unique
+  phone String? @unique
+
+  UserInfo   UserInfo? @relation(fields: [userInfoId], references: [id])
+  userInfoId String?
+
+  orders       Order[]
+  notifcations Notification[]
+
+  role              String @default("USER")
+  registrationStage Int    @default(0)
+
+  passwordHash  String?
+  userAuthToken String  @unique
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model UserInfo {
+  id String @id @default(uuid())
+
+  firstName        String
+  lastName         String
+  dateOfBirth      String
+  gender           String
+  countryCode      String
+  state            String
+  town             String
+  street           String
+  postCode         String
+  formattedAddress String
+
+  User User[]
+}
+
+model Notification {
+  id String @id @default(uuid())
+
+  status Int
+
+  user   User?   @relation(fields: [userId], references: [id])
+  userId String?
+
+  order   Order?  @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  orderId String?
+
+  createdAt DateTime @default(now())
+}
+
+model Order {
+  id           String @id @default(uuid())
+  exchangeType String
+  exchangeRate Float
+
+  orderStep     Int     @default(0)
+  paymentMethod String?
+  receiver      String?
+
+  fromCurrency String
+  fromAmount   Float
+
+  toCurrency String
+  toAmount   Float
+
+  serviceFee Float
+  networkFee Float
+
+  status Int @default(0)
+
+  User   User?   @relation(fields: [userId], references: [id])
+  userId String?
+
+  notifications Notification[]
+
+  paySafeCardDetails PaySafeCardDetails?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model PaySafeCardDetails {
+  id String @id @default(uuid())
+
+  gatewayOperationId String
+  gatewayOrderId     String
+
+  Order   Order  @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  orderId String @unique
+}
+
+model BankRequisites {
+  id                 String @id @default(uuid())
+  cardNumber         String @default("")
+  iban               String @default("")
+  swift              String @default("")
+  beneficiary        String @default("")
+  registrationNumber String @default("")
+  beneficiaryAddress String @default("")
+  bankName           String @default("")
+}
+
+model CryptoRequisite {
+  ticker  String @id
+  address String @default("")
+}

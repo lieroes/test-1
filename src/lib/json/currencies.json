@@ -1,0 +1,186 @@
+[
+	{
+		"name": "United States dollar",
+		"ticker": "USD"
+	},
+	{
+		"name": "Euro",
+		"ticker": "EUR"
+	},
+	{
+		"name": "Canadian dollar",
+		"ticker": "CAD"
+	},
+	{
+		"name": "Pound sterling",
+		"ticker": "GBP"
+	},
+	{
+		"name": "United Arab Emirates dirham",
+		"ticker": "AED"
+	},
+	{
+		"name": "Australian dollar",
+		"ticker": "AUD"
+	},
+	{
+		"name": "Azerbaijan Manat",
+		"ticker": "AZN"
+	},
+	{
+		"name": "Bangladeshi Taka",
+		"ticker": "BDT"
+	},
+	{
+		"name": "Brazilian real",
+		"ticker": "BRL"
+	},
+	{
+		"name": "Swiss Franc",
+		"ticker": "CHF"
+	},
+	{
+		"name": "Chilean peso",
+		"ticker": "CLP"
+	},
+	{
+		"name": "Colombian peso",
+		"ticker": "COP"
+	},
+	{
+		"name": "Costa Rican Colon",
+		"ticker": "CRC"
+	},
+	{
+		"name": "Czech Koruna",
+		"ticker": "CZK"
+	},
+	{
+		"name": "Danish krone",
+		"ticker": "DKK"
+	},
+	{
+		"name": "Dominican Republic Peso",
+		"ticker": "DOP"
+	},
+	{
+		"name": "Algerian dinar",
+		"ticker": "DZD"
+	},
+	{
+		"name": "Egyptian pound",
+		"ticker": "EGP"
+	},
+	{
+		"name": "Georgian Lari",
+		"ticker": "GEL"
+	},
+	{
+		"name": "Hong Kong dollar",
+		"ticker": "HKD"
+	},
+	{
+		"name": "Hungarian Forint",
+		"ticker": "HUF"
+	},
+	{
+		"name": "Indonesian Rupiah",
+		"ticker": "IDR"
+	},
+	{
+		"name": "Israeli Shekel",
+		"ticker": "ILS"
+	},
+	{
+		"name": "Indian Rupee",
+		"ticker": "INR"
+	},
+	{
+		"name": "Japanese yen",
+		"ticker": "JPY"
+	},
+	{
+		"name": "Kenyan Shilling",
+		"ticker": "KES"
+	},
+	{
+		"name": "Korean Won",
+		"ticker": "KRW"
+	},
+	{
+		"name": "Kuwaiti Dinar",
+		"ticker": "KWD"
+	},
+	{
+		"name": "Morocco Dirham",
+		"ticker": "MAD"
+	},
+	{
+		"name": "Mexican peso",
+		"ticker": "MXN"
+	},
+	{
+		"name": "Malaysian Ringgit",
+		"ticker": "MYR"
+	},
+	{
+		"name": "Nigerian Naira",
+		"ticker": "NGN"
+	},
+	{
+		"name": "Norwegian Krone",
+		"ticker": "NOK"
+	},
+	{
+		"name": "Peruvian Sol",
+		"ticker": "PEN"
+	},
+	{
+		"name": "Philippine Peso",
+		"ticker": "PHP"
+	},
+	{
+		"name": "Polish Zloty",
+		"ticker": "PLN"
+	},
+	{
+		"name": "Romanian Leu",
+		"ticker": "RON"
+	},
+	{
+		"name": "Saudi riyal",
+		"ticker": "SAR"
+	},
+	{
+		"name": "Swedish Krona",
+		"ticker": "SEK"
+	},
+	{
+		"name": "Singapore Dollar",
+		"ticker": "SGD"
+	},
+	{
+		"name": "Thai Baht",
+		"ticker": "THB"
+	},
+	{
+		"name": "Tunisian dinar",
+		"ticker": "TND"
+	},
+	{
+		"name": "Turkish lira",
+		"ticker": "TRY"
+	},
+	{
+		"name": "Ukrainian Hryvnia",
+		"ticker": "UAH"
+	},
+	{
+		"name": "Vietnamese Dong",
+		"ticker": "VND"
+	},
+	{
+		"name": "South African Rand",
+		"ticker": "ZAR"
+	}
+]
